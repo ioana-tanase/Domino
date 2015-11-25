@@ -1,0 +1,18 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+
+/* Loader */
+
+	body {
+		&:before,
+		&:after {
+			display: none !important;
+		}
+	}
+
+/* Poptrox */
+
+	.poptrox-popup .loader {
+		display: none !important;
+	}

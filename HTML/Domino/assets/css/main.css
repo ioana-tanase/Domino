@@ -1,0 +1,36 @@
+body{
+	background-image: url("../../images/pieces.png");
+}
+
+.btn-xlg {
+	padding: 16px 85px;
+	font-size: 20px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+	margin-bottom: 5px;
+}
+
+.btn-lg{
+	padding: 10px 87px;
+	margin-bottom: 5px;
+}
+
+#content{
+	display: block;
+	position: relative;
+	width: 330px;
+	left: 40%;
+	top: 120px;
+	padding: 15px;
+	border: 10px solid #000;
+	background-image: none;
+	background-color: #fff;
+}
+
+.navbar{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
