@@ -1,7 +1,10 @@
 body{
-	background-image: url("../../images/pieces.png");
+	/*background-image: url("../../images/pieces.png");*/
+	background-color: #eee;
 }
-
+h2{
+	padding: 0px;
+}
 .btn-xlg {
 	padding: 16px 85px;
 	font-size: 20px;
@@ -9,28 +12,24 @@ body{
 	border-radius: 6px;
 	margin-bottom: 5px;
 }
-
 .btn-lg{
 	padding: 10px 87px;
 	margin-bottom: 5px;
 }
-
 #content{
 	display: block;
 	position: relative;
-	width: 330px;
-	left: 40%;
-	top: 120px;
-	padding: 15px;
-	border: 10px solid #000;
-	background-image: none;
-	background-color: #fff;
+	/*width: 330px;*/
+	padding-top: 10%;
+	padding-left: 40%;
+	/*padding: 15px;
+	border: 10px solid #000;*/
+	/*background-image: none;
+	background-color: #fff;*/
 }
-
 .navbar{
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left: 0;
 }
-
