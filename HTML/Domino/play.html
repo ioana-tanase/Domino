@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>DominoX</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="DominoX">
+    	<meta name="author" content="Ioana-Alexandra T&atilde;nase">
+		<link rel="icon" sizes="48x48" href="images/icon.png" type="image/png" />
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/play.css" />
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="left">
+		<div class="btn-group-vertical">
+			<button type="button" class="btn btn-warning">Restart</button>
+			<button type="button" class="btn btn-warning">Give up</button>
+			<button type="button" class="btn btn-primary">Instructions</button>
+		</div>
+		<button id="follow-btn" type="button" class="btn btn-primary">Follow us</button>
+		</div>
+		<div class="right">
+			<div class="counter">
+				<span class="minutes">
+					<b>Minutes:</b>
+				</span>
+				<span class="seconds">
+					<b>Seconds</b>
+				</span>
+			</div>
+			<button id="share-btn" type="button" class="btn btn-primary">Share game state</button>
+		</div>
+		<div class="container">
+			<div class="jumbotron">
+				<div class="players">
+					<span class="player1">
+						<span class="pic1">Player1</span>
+						<span class="badge">pieces</span>
+						<span class="badge">points</span>
+					</span>
+					<span class="player2">
+						<span class="pic2">Player 2</span>
+						<span class="badge">pieces</span>
+						<span class="badge">points</span>
+					</span>
+				</div>
+				<div class="gameboard">
+					<label></label>
+				</div>
+				<div class="pieces">
+					<label></label>
+					<button id="draw" type="button" class="btn btn-primary">Draw piece</button>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
