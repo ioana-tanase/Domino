@@ -1,0 +1,151 @@
+
+.avatar{
+    width:25%;
+	
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.rotate0 {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.rotateAnother180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+#logoZone {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 7em;
+    float: left;
+    width: 15%;
+	background-color: #130906;
+}
+
+#saveZone {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 7em;
+    float: left;
+    width: 15%
+}
+
+#gameZone {
+    width: 50%;
+    height: 50%;
+	float:left;
+	display:inline-block;
+	margin-right:auto;
+	text-align:center;
+	
+}
+
+#playersContainer{
+	background-color: #000000;
+	margin-bottom:0;
+}
+#cardsContainer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #000000;
+}
+
+#gameTable{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #130906;
+}
+#player1container{
+	width:35%;
+	height:auto;
+	background-color:#ffffff;
+	
+}
+#player2container{
+	width:35%;
+	height:auto;
+	background-color:#ffffff;
+	
+}
+.gameZone {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.playerName {
+    display: block;
+}
+
+
+table {
+    margin: 0 auto;
+	display: inline-block;
+}
+
+td {
+    word-wrap: break-word;
+}
+
+td img {
+    width: 50%;
+    margin-left: 3%;
+    margin-top: auto;
+}
+
+.card {
+    width: 5%;
+}
+
+.act {   
+-moz-box-shadow: 0 0 8px #fff;
+-webkit-box-shadow: 0 0 8px #fff;
+box-shadow: 0px 0px 8px #fff;
+padding:5px;
+}
+
+@media (max-width:600px){
+    .card {
+        width: 4%;
+    }
+
+    #gameZone {
+        width: 100%;
+    }
+}

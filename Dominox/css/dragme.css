@@ -1,0 +1,10 @@
+.dragme{
+	position: relative;
+	width: 2%;
+	height: 2%;
+	cursor: move;
+}
+#svg{
+	padding-top: 100px;
+	padding-left: 100px;
+}

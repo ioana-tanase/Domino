@@ -1,0 +1,18 @@
+.empty{
+	width: 2%;
+	height: 2%;
+}
+
+.center{
+	position: fixed;
+	left: 40%;
+	top: 10%;	
+}
+
+.left{
+	margin-left: -1%;
+}
+
+.right{
+	margin-left: 28%;
+}
